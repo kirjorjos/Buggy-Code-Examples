@@ -1,0 +1,2 @@
+Bug: Assigning to 'x' within a function makes it local. Accessing 'x' before assignment within the same scope fails.
+Fix: Use the 'global' keyword if you must modify 'x': 'global x; x += 1'.

@@ -1,0 +1,2 @@
+Bug: Python is indentation-sensitive. Inconsistent or extra spacing causes an 'IndentationError'.
+Fix: Ensure consistent indentation levels (usually 4 spaces).

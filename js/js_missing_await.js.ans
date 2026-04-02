@@ -1,0 +1,2 @@
+Bug: 'fetchData' is an async function and returns a Promise. The 'process' function tries to call '.toUpperCase()' on the Promise object rather than the resolved string.
+Fix: Make 'process' async and use 'await fetchData()'.

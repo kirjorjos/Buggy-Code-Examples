@@ -1,0 +1,2 @@
+Bug: Excess property checks only occur on object literals passed directly to functions. Assigning to a variable first bypasses this check.
+Fix: Use the object literal directly or define the variable type explicitly as 'Options'.

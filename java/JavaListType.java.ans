@@ -1,0 +1,2 @@
+Bug: Using raw types (List instead of List<String>) bypasses compile-time type safety, leading to 'ClassCastException' at runtime.
+Fix: Use generics: 'List<String> list = new ArrayList<>();'.

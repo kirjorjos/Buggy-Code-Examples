@@ -1,0 +1,2 @@
+Bug: Loose equality (==) performs type coercion. An empty string "" is coerced to 0 when compared with 0, leading to "Value is zero".
+Fix: Use strict equality (===) to avoid type coercion.

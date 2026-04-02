@@ -1,0 +1,2 @@
+Bug: In Python 3, you cannot compare (and thus sort) incompatible types like 'int' and 'str'.
+Fix: Convert all elements to the same type (e.g., all strings) before sorting.

@@ -1,0 +1,2 @@
+Bug: Using the non-null assertion operator (!) tells TS to ignore possible null/undefined values, leading to a crash if the value is actually null.
+Fix: Use optional chaining (?.) or a proper null check.

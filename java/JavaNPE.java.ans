@@ -1,0 +1,2 @@
+Bug: Java tries to unbox the 'Integer' object 'val' to an 'int' primitive. Since 'val' is null, this throws a 'NullPointerException'.
+Fix: Check if 'val' is null before performing arithmetic or ensure 'val' is initialized.

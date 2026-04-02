@@ -1,0 +1,2 @@
+Bug: 'var' has function scope, not block scope. By the time the timeouts execute, the loop has finished and 'i' is 3.
+Fix: Use 'let' instead of 'var' to give each iteration its own scope.

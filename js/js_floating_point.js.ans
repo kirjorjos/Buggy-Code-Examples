@@ -1,0 +1,2 @@
+Bug: IEEE 754 floating-point math leads to precision issues (0.1 + 0.2 is 0.30000000000000004).
+Fix: Use a small epsilon for comparison: 'Math.abs((a + b) - 0.3) < Number.EPSILON'.

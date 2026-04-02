@@ -1,0 +1,2 @@
+Bug: Status.Active is 0, which is falsy in JavaScript. The condition '!s' evaluates to true for Active.
+Fix: Explicitly check the enum value: 'if (s === Status.Active)'.

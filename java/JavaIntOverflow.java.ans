@@ -1,0 +1,2 @@
+Bug: Integer overflow causes 'Integer.MAX_VALUE + 1' to wrap around to 'Integer.MIN_VALUE'.
+Fix: Use 'long' for larger ranges or use 'Math.addExact()' to throw an exception on overflow.

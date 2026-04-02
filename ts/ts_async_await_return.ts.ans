@@ -1,0 +1,2 @@
+Bug: The 'wrapper' function does not return the result of the Promise chain. 'return v' is inside the callback, not 'wrapper'.
+Fix: Return the promise or use async/await: 'return await getVal();'.

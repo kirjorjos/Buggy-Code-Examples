@@ -1,0 +1,2 @@
+Bug: A 'return' statement in a 'finally' block will override any 'return' or 'throw' in the 'try' or 'catch' blocks.
+Fix: Avoid using 'return' inside 'finally' blocks; use 'finally' only for cleanup.

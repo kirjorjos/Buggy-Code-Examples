@@ -1,0 +1,2 @@
+Bug: 'copy.copy' creates a shallow copy. Nested objects (like lists within lists) are still references to the same objects.
+Fix: Use 'copy.deepcopy(orig)' to create a full independent copy.

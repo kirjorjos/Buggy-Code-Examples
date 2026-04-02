@@ -1,0 +1,2 @@
+Bug: TypeError: Assignment to constant variable.
+Fix: Use 'let' instead of 'const' if the value needs to be reassigned, or don't reassign the constant.

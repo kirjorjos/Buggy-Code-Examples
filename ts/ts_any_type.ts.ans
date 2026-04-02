@@ -1,0 +1,2 @@
+Bug: Overuse of 'any' bypasses the type checker, leading to a runtime error when 'name' is missing.
+Fix: Use a proper interface or 'unknown' and perform type checking.

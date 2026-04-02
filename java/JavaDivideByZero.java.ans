@@ -1,0 +1,2 @@
+Bug: Integer division by zero throws an 'ArithmeticException'.
+Fix: Ensure the divisor is not zero before dividing.

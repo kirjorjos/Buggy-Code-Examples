@@ -1,0 +1,2 @@
+Bug: TypeScript's 'readonly' is a compile-time check. Casting to 'any' allows modification at runtime, breaking the immutability contract.
+Fix: Respect the 'readonly' modifier and avoid 'as any' casts to mutate objects.

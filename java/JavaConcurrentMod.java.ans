@@ -1,0 +1,2 @@
+Bug: Modifying a collection while iterating over it using a 'for-each' loop throws 'ConcurrentModificationException'.
+Fix: Use an 'Iterator' and call 'iterator.remove()' or use 'list.removeIf()'.

@@ -1,0 +1,2 @@
+Bug: Arrow functions do not have their own 'this' context; they inherit it from the parent scope. In this case, 'this' refers to the global object (or undefined in strict mode).
+Fix: Use a regular function expression: 'increment() { this.count++; }'.

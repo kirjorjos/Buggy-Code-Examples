@@ -1,0 +1,2 @@
+Bug: Lambdas capture variables by reference, not value. By the time they are called, 'i' is 2.
+Fix: Use default arguments to capture the value: 'lambda i=i: i'.

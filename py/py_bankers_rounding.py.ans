@@ -1,0 +1,2 @@
+Bug: Python's 'round()' uses "round to even" (Banker's rounding) to minimize bias.
+Fix: If "round half up" is needed, use a custom function or 'Decimal' with 'ROUND_HALF_UP'.

@@ -1,0 +1,2 @@
+Bug: '==' compares object references in Java. Since 's1' and 's2' are created with 'new', they are different objects.
+Fix: Use 's1.equals(s2)' to compare the content of the strings.

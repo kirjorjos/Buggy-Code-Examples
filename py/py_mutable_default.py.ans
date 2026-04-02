@@ -1,0 +1,2 @@
+Bug: Default arguments are evaluated only once at definition time. A mutable list is shared across calls.
+Fix: Use 'None' as default: 'def add_item(item, list_=None): if list_ is None: list_ = []'.
